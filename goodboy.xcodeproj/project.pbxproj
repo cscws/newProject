@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		973C2C52EB51E686A66EAEC5 /* libPods-goodboy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62E242A69311ED76D10D289 /* libPods-goodboy.a */; };
 		C05D674C27B11A3A00BEEBFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C05D674B27B11A3A00BEEBFA /* AppDelegate.m */; };
 		C05D674F27B11A3A00BEEBFA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C05D674E27B11A3A00BEEBFA /* SceneDelegate.m */; };
 		C05D675227B11A3A00BEEBFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05D675127B11A3A00BEEBFA /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3ADB94080E1142181233655D /* Pods-goodboy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goodboy.release.xcconfig"; path = "Target Support Files/Pods-goodboy/Pods-goodboy.release.xcconfig"; sourceTree = "<group>"; };
+		AB1CF54149C84023D25836D4 /* Pods-goodboy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goodboy.debug.xcconfig"; path = "Target Support Files/Pods-goodboy/Pods-goodboy.debug.xcconfig"; sourceTree = "<group>"; };
 		C05D674727B11A3A00BEEBFA /* goodboy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goodboy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C05D674A27B11A3A00BEEBFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C05D674B27B11A3A00BEEBFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,6 +58,7 @@
 		C05D677327B11A4400BEEBFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C05D678827B11CA200BEEBFA /* CSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSViewController.h; sourceTree = "<group>"; };
 		C05D678927B11CA200BEEBFA /* CSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSViewController.m; sourceTree = "<group>"; };
+		C62E242A69311ED76D10D289 /* libPods-goodboy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-goodboy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				973C2C52EB51E686A66EAEC5 /* libPods-goodboy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +87,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55CECA37DB6B6F8F5C8716CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB1CF54149C84023D25836D4 /* Pods-goodboy.debug.xcconfig */,
+				3ADB94080E1142181233655D /* Pods-goodboy.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C05D673E27B11A3A00BEEBFA = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +104,8 @@
 				C05D676527B11A4400BEEBFA /* goodboyTests */,
 				C05D677027B11A4400BEEBFA /* goodboyUITests */,
 				C05D674827B11A3A00BEEBFA /* Products */,
+				55CECA37DB6B6F8F5C8716CA /* Pods */,
+				CBC80E2383B856192E7CC395 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +156,14 @@
 			path = goodboyUITests;
 			sourceTree = "<group>";
 		};
+		CBC80E2383B856192E7CC395 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C62E242A69311ED76D10D289 /* libPods-goodboy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +171,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C05D677627B11A4400BEEBFA /* Build configuration list for PBXNativeTarget "goodboy" */;
 			buildPhases = (
+				494EB83B224B774185BE7A5B /* [CP] Check Pods Manifest.lock */,
 				C05D674327B11A3A00BEEBFA /* Sources */,
 				C05D674427B11A3A00BEEBFA /* Frameworks */,
 				C05D674527B11A3A00BEEBFA /* Resources */,
@@ -261,6 +287,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		494EB83B224B774185BE7A5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-goodboy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C05D674327B11A3A00BEEBFA /* Sources */ = {
@@ -432,6 +483,7 @@
 		};
 		C05D677727B11A4400BEEBFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB1CF54149C84023D25836D4 /* Pods-goodboy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -450,6 +502,7 @@
 		};
 		C05D677827B11A4400BEEBFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ADB94080E1142181233655D /* Pods-goodboy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
