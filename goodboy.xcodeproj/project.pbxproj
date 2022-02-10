@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		973C2C52EB51E686A66EAEC5 /* libPods-goodboy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62E242A69311ED76D10D289 /* libPods-goodboy.a */; };
+		C033EE1927B53F02002A2D88 /* UIViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = C033EE1727B53F02002A2D88 /* UIViewController+Swizzling.m */; };
 		C05D674C27B11A3A00BEEBFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C05D674B27B11A3A00BEEBFA /* AppDelegate.m */; };
 		C05D674F27B11A3A00BEEBFA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C05D674E27B11A3A00BEEBFA /* SceneDelegate.m */; };
 		C05D675227B11A3A00BEEBFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05D675127B11A3A00BEEBFA /* ViewController.m */; };
@@ -39,6 +40,8 @@
 /* Begin PBXFileReference section */
 		3ADB94080E1142181233655D /* Pods-goodboy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goodboy.release.xcconfig"; path = "Target Support Files/Pods-goodboy/Pods-goodboy.release.xcconfig"; sourceTree = "<group>"; };
 		AB1CF54149C84023D25836D4 /* Pods-goodboy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goodboy.debug.xcconfig"; path = "Target Support Files/Pods-goodboy/Pods-goodboy.debug.xcconfig"; sourceTree = "<group>"; };
+		C033EE1727B53F02002A2D88 /* UIViewController+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzling.m"; sourceTree = "<group>"; };
+		C033EE1827B53F02002A2D88 /* UIViewController+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzling.h"; sourceTree = "<group>"; };
 		C05D674727B11A3A00BEEBFA /* goodboy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goodboy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C05D674A27B11A3A00BEEBFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C05D674B27B11A3A00BEEBFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -93,7 +96,6 @@
 				AB1CF54149C84023D25836D4 /* Pods-goodboy.debug.xcconfig */,
 				3ADB94080E1142181233655D /* Pods-goodboy.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -134,6 +136,8 @@
 				C05D675C27B11A4300BEEBFA /* main.m */,
 				C05D678827B11CA200BEEBFA /* CSViewController.h */,
 				C05D678927B11CA200BEEBFA /* CSViewController.m */,
+				C033EE1827B53F02002A2D88 /* UIViewController+Swizzling.h */,
+				C033EE1727B53F02002A2D88 /* UIViewController+Swizzling.m */,
 			);
 			path = goodboy;
 			sourceTree = "<group>";
@@ -320,6 +324,7 @@
 			files = (
 				C05D678A27B11CA200BEEBFA /* CSViewController.m in Sources */,
 				C05D675227B11A3A00BEEBFA /* ViewController.m in Sources */,
+				C033EE1927B53F02002A2D88 /* UIViewController+Swizzling.m in Sources */,
 				C05D674C27B11A3A00BEEBFA /* AppDelegate.m in Sources */,
 				C05D675D27B11A4300BEEBFA /* main.m in Sources */,
 				C05D674F27B11A3A00BEEBFA /* SceneDelegate.m in Sources */,
