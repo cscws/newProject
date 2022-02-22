@@ -14,17 +14,21 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - WebViewJavascriptBridge (6.0.3)
 
 DEPENDENCIES:
   - AFNetworking
+  - WebViewJavascriptBridge
 
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - WebViewJavascriptBridge
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
 
-PODFILE CHECKSUM: a1ef88ab53953ad4985a56b9dcfeda29703eee3f
+PODFILE CHECKSUM: 70ca9fd66562e879e8abec1775d1ff48c6cd4d4b
 
 COCOAPODS: 1.11.2

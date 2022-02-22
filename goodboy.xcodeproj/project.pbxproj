@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		973C2C52EB51E686A66EAEC5 /* libPods-goodboy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62E242A69311ED76D10D289 /* libPods-goodboy.a */; };
 		C033EE1927B53F02002A2D88 /* UIViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = C033EE1727B53F02002A2D88 /* UIViewController+Swizzling.m */; };
+		C033EE1F27B54C7A002A2D88 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = C033EE1E27B54C7A002A2D88 /* Student.m */; };
+		C033EE2C27BE3831002A2D88 /* MyWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C033EE2B27BE3831002A2D88 /* MyWebViewController.m */; };
+		C033EE3127BE3BEA002A2D88 /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = C033EE3027BE3BEA002A2D88 /* data.txt */; };
 		C05D674C27B11A3A00BEEBFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C05D674B27B11A3A00BEEBFA /* AppDelegate.m */; };
 		C05D674F27B11A3A00BEEBFA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C05D674E27B11A3A00BEEBFA /* SceneDelegate.m */; };
-		C05D675227B11A3A00BEEBFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05D675127B11A3A00BEEBFA /* ViewController.m */; };
 		C05D675727B11A4300BEEBFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C05D675627B11A4300BEEBFA /* Assets.xcassets */; };
 		C05D675A27B11A4300BEEBFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05D675827B11A4300BEEBFA /* LaunchScreen.storyboard */; };
 		C05D675D27B11A4300BEEBFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C05D675C27B11A4300BEEBFA /* main.m */; };
@@ -42,13 +44,16 @@
 		AB1CF54149C84023D25836D4 /* Pods-goodboy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goodboy.debug.xcconfig"; path = "Target Support Files/Pods-goodboy/Pods-goodboy.debug.xcconfig"; sourceTree = "<group>"; };
 		C033EE1727B53F02002A2D88 /* UIViewController+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzling.m"; sourceTree = "<group>"; };
 		C033EE1827B53F02002A2D88 /* UIViewController+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzling.h"; sourceTree = "<group>"; };
+		C033EE1D27B54C7A002A2D88 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		C033EE1E27B54C7A002A2D88 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		C033EE2A27BE3831002A2D88 /* MyWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWebViewController.h; sourceTree = "<group>"; };
+		C033EE2B27BE3831002A2D88 /* MyWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWebViewController.m; sourceTree = "<group>"; };
+		C033EE3027BE3BEA002A2D88 /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
 		C05D674727B11A3A00BEEBFA /* goodboy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goodboy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C05D674A27B11A3A00BEEBFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C05D674B27B11A3A00BEEBFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C05D674D27B11A3A00BEEBFA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		C05D674E27B11A3A00BEEBFA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		C05D675027B11A3A00BEEBFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C05D675127B11A3A00BEEBFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C05D675627B11A4300BEEBFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C05D675927B11A4300BEEBFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C05D675B27B11A4300BEEBFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,6 +104,16 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C033EE3527BE467A002A2D88 /* WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				C033EE3027BE3BEA002A2D88 /* data.txt */,
+				C033EE2A27BE3831002A2D88 /* MyWebViewController.h */,
+				C033EE2B27BE3831002A2D88 /* MyWebViewController.m */,
+			);
+			path = WKWebView;
+			sourceTree = "<group>";
+		};
 		C05D673E27B11A3A00BEEBFA = {
 			isa = PBXGroup;
 			children = (
@@ -124,12 +139,11 @@
 		C05D674927B11A3A00BEEBFA /* goodboy */ = {
 			isa = PBXGroup;
 			children = (
+				C033EE3527BE467A002A2D88 /* WKWebView */,
 				C05D674A27B11A3A00BEEBFA /* AppDelegate.h */,
 				C05D674B27B11A3A00BEEBFA /* AppDelegate.m */,
 				C05D674D27B11A3A00BEEBFA /* SceneDelegate.h */,
 				C05D674E27B11A3A00BEEBFA /* SceneDelegate.m */,
-				C05D675027B11A3A00BEEBFA /* ViewController.h */,
-				C05D675127B11A3A00BEEBFA /* ViewController.m */,
 				C05D675627B11A4300BEEBFA /* Assets.xcassets */,
 				C05D675827B11A4300BEEBFA /* LaunchScreen.storyboard */,
 				C05D675B27B11A4300BEEBFA /* Info.plist */,
@@ -138,6 +152,8 @@
 				C05D678927B11CA200BEEBFA /* CSViewController.m */,
 				C033EE1827B53F02002A2D88 /* UIViewController+Swizzling.h */,
 				C033EE1727B53F02002A2D88 /* UIViewController+Swizzling.m */,
+				C033EE1D27B54C7A002A2D88 /* Student.h */,
+				C033EE1E27B54C7A002A2D88 /* Student.m */,
 			);
 			path = goodboy;
 			sourceTree = "<group>";
@@ -272,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C05D675A27B11A4300BEEBFA /* LaunchScreen.storyboard in Resources */,
+				C033EE3127BE3BEA002A2D88 /* data.txt in Resources */,
 				C05D675727B11A4300BEEBFA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,11 +340,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C05D678A27B11CA200BEEBFA /* CSViewController.m in Sources */,
-				C05D675227B11A3A00BEEBFA /* ViewController.m in Sources */,
 				C033EE1927B53F02002A2D88 /* UIViewController+Swizzling.m in Sources */,
 				C05D674C27B11A3A00BEEBFA /* AppDelegate.m in Sources */,
+				C033EE1F27B54C7A002A2D88 /* Student.m in Sources */,
 				C05D675D27B11A4300BEEBFA /* main.m in Sources */,
 				C05D674F27B11A3A00BEEBFA /* SceneDelegate.m in Sources */,
+				C033EE2C27BE3831002A2D88 /* MyWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +512,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L55QJM5Y27;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = goodboy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -513,6 +532,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L55QJM5Y27;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = goodboy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
