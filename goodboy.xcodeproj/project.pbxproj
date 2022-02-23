@@ -20,6 +20,7 @@
 		C05D676727B11A4400BEEBFA /* goodboyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C05D676627B11A4400BEEBFA /* goodboyTests.m */; };
 		C05D677227B11A4400BEEBFA /* goodboyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C05D677127B11A4400BEEBFA /* goodboyUITests.m */; };
 		C05D678A27B11CA200BEEBFA /* CSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05D678927B11CA200BEEBFA /* CSViewController.m */; };
+		C0DD778727C51FFA00BE6BFD /* 1242_2208.png in Resources */ = {isa = PBXBuildFile; fileRef = C0DD778627C51FFA00BE6BFD /* 1242_2208.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		C05D677327B11A4400BEEBFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C05D678827B11CA200BEEBFA /* CSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSViewController.h; sourceTree = "<group>"; };
 		C05D678927B11CA200BEEBFA /* CSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSViewController.m; sourceTree = "<group>"; };
+		C0DD778627C51FFA00BE6BFD /* 1242_2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1242_2208.png; sourceTree = "<group>"; };
 		C62E242A69311ED76D10D289 /* libPods-goodboy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-goodboy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -139,6 +141,7 @@
 		C05D674927B11A3A00BEEBFA /* goodboy */ = {
 			isa = PBXGroup;
 			children = (
+				C0DD778C27C6578700BE6BFD /* LaunchImage */,
 				C033EE3527BE467A002A2D88 /* WKWebView */,
 				C05D674A27B11A3A00BEEBFA /* AppDelegate.h */,
 				C05D674B27B11A3A00BEEBFA /* AppDelegate.m */,
@@ -174,6 +177,14 @@
 				C05D677327B11A4400BEEBFA /* Info.plist */,
 			);
 			path = goodboyUITests;
+			sourceTree = "<group>";
+		};
+		C0DD778C27C6578700BE6BFD /* LaunchImage */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD778627C51FFA00BE6BFD /* 1242_2208.png */,
+			);
+			path = LaunchImage;
 			sourceTree = "<group>";
 		};
 		CBC80E2383B856192E7CC395 /* Frameworks */ = {
@@ -287,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0DD778727C51FFA00BE6BFD /* 1242_2208.png in Resources */,
 				C05D675A27B11A4300BEEBFA /* LaunchScreen.storyboard in Resources */,
 				C033EE3127BE3BEA002A2D88 /* data.txt in Resources */,
 				C05D675727B11A4300BEEBFA /* Assets.xcassets in Resources */,
